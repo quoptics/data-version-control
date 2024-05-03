@@ -1,0 +1,5 @@
+[core]
+    analytics = false
+    remote = remote_storage
+['remote "remote_storage"']
+    url = C:\Projekte\22_DVC_Tests\dvc_storage

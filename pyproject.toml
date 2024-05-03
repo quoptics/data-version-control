@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "data-version-control"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dvc = "^3.50.1"
+scikit-learn = "^1.4.2"
+scikit-image = "^0.23.2"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+pyqt5-qt5 = "5.15.2"
+pyqtwebengine-qt5 = "5.15.2"
+pyqt5 = "^5.15.10"
+spyder = "^5.5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

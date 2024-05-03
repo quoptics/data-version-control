@@ -1,5 +1,7 @@
 [core]
     analytics = false
     remote = remote_storage
+[cache]
+    type = "hardlink,symlink"
 ['remote "remote_storage"']
     url = C:\Projekte\22_DVC_Tests\dvc_storage
